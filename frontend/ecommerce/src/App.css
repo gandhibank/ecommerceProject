@@ -1,0 +1,404 @@
+code {
+  font-family: monospace, poppins;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  font: var(--h1);
+  color: var(--colorp);
+}
+.h2 {
+  font: var(--h2);
+  color: var(--colorp);
+}
+.h3 {
+  font: var(--h3);
+  color: var(--colorp);
+}
+.para {
+  font: var(--p);
+  color: var(--colorp2);
+}
+.paral {
+  font: var(--p1);
+  color: var(--colorp2);
+}
+.paraxl {
+  font: var(--p2);
+  color: var(--colorp2);
+}
+.btnPrimary {
+  font: var(--p1);
+  color: var(--colors);
+  background-color: var(--colora);
+}
+.btnSecondary {
+  font: var(--p1);
+  color: var(--colors);
+  background-color: var(--colora2);
+}
+.cartBtn {
+  font: var(--p);
+  color: var(--colors);
+  background-color: var(--colorp2);
+}
+
+.links {
+  font: var(--links);
+  color: var(--colorp);
+}
+.border-none {
+  border: none;
+}
+.rounded-0 {
+  border-radius: 0;
+}
+.rounded-1 {
+  border-radius: 4px;
+}
+.rounded-2 {
+  border-radius: 12px;
+}
+.rounded-3 {
+  border-radius: 16px;
+}
+.rounded-circle {
+  border-radius: 50%;
+}
+.rounded-first {
+  border-radius: 4px 0 0 4px;
+}
+.rounded-last {
+  border-radius: 0 4px 4px 0;
+}
+.d-block {
+  display: block;
+}
+.d-none {
+  display: none;
+}
+.ml-2 {
+  margin-left: 0.5rem;
+}
+.mt-1 {
+  margin-top: 0.5rem;
+}
+.mt-2 {
+  margin-top: 1rem;
+}
+.mi-auto {
+  margin-inline: auto;
+}
+.mb-1 {
+  margin-block: 1rem;
+}
+.t-center {
+  text-align: center;
+}
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 1.5rem;
+}
+.pl-1 {
+  padding-left: 1rem;
+}
+.pr-1 {
+  padding-right: 1rem;
+}
+.pt-1 {
+  padding-top: 0.5rem;
+}
+.pt-2 {
+  padding-top: 1rem;
+}
+.p-i {
+  padding-inline: 1rem;
+}
+.p-bhalf {
+  padding-block: 0.5rem;
+}
+.p-b {
+  padding-block: 1rem;
+}
+.bg-none {
+  background-color: transparent;
+}
+.cursor-point {
+  cursor: pointer;
+}
+.separatorBar {
+  display: inline-block;
+  height: 0.5rem;
+  width: 2rem;
+  border-radius: 1rem / 1rem;
+  background-color: hsl(from var(--colorp2) h s calc(l + 50));
+}
+/*------- */
+.btn {
+  border: none;
+  padding: 8px 12px;
+  transition: var(--transition);
+  cursor: pointer;
+  outline: none;
+  border-radius: 0.25rem;
+  font-family: poppins;
+  text-decoration: none;
+}
+.btn:hover {
+  transform: scale(0.95);
+}
+.max-w {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.highlight {
+  color: var(--colorp);
+  font-weight: bold;
+}
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+.col-4 {
+  width: 25%;
+}
+.col-2 {
+  width: 50%;
+}
+.col-1 {
+  width: 100%;
+}
+.d-grid {
+  display: grid;
+}
+.align-center {
+  align-content: center;
+}
+.align-item {
+  align-items: center;
+}
+.removeLink {
+  text-decoration: none;
+  color: var(--colorp);
+}
+.justifyCenter {
+  justify-content: center;
+}
+.border-1 {
+  border: 1px solid;
+}
+
+.btnanchor {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.w-100 {
+  width: 100%;
+}
+.o-fit {
+  object-fit: cover;
+}
+.colgap {
+  column-gap: 0.5rem;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-inline: auto;
+}
+.text-danger {
+  color: var(--colora);
+}
+.text-cool {
+  color: var(--colora2);
+}
+.bg-danger {
+  background-color: var(--colora);
+}
+.bg-cool {
+  background-color: var(--colora2);
+}
+.bg-light{
+  background-color: var(--colors);
+}
+.t-white {
+  color: var(--colors);
+}
+
+/* header */
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: var();
+}
+/* productDetail page */
+/* .productContainer {
+ 
+} */
+.productContainer > .row {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.productCol {
+  height: auto;
+}
+
+/* rating */
+.rating-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+  color: #fdcc0d;
+}
+.rating-outer::before {
+  content: "\f006 \f006 \f006 \f006 \f006";
+}
+.rating-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+.rating-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  color: #f8ce0b;
+}
+.link {
+  text-decoration: none;
+  color: var(--colorp);
+}
+.d-inlineBlock {
+  display: inline-block;
+}
+.f-right {
+  float: right;
+}
+.noWrap {
+  flex-wrap: nowrap;
+}
+/* cart page */
+.cartHeader {
+  justify-content: space-between;
+  align-items: center;
+}
+.cartBody .cartDescription > * {
+  padding: 4px;
+}
+.cartDeleteBtn {
+  color: red;
+}
+#cartNotesbox {
+  height: 0;
+  overflow: hidden;
+  transition: all var(--transition);
+}
+#cartNotesbox #notes {
+  background-color: transparent;
+  font-family: poppins;
+  border: none;
+}
+#addNotes {
+  outline: none;
+}
+.continueShop{
+  background-color: hsl(from var(--colors) h s calc(l - 20));
+}
+.col-25 {
+  width: 25%;
+}
+.col-75 {
+  width: 75%;
+}
+.rowGap {
+  row-gap: 0.5rem;
+}
+.resize-v {
+  resize: vertical;
+}
+
+.darkMode {
+  --colorbody: #1f1f1f;
+  --colorp: #ffffff;
+  --colorp2: #f2f2f2;
+  --colors: #333333;
+  --shadow: #ffffff30 0px 4px 12px 0px;
+}
+/* home */
+.learnMoreSection, .homeTestimonials{
+  max-width: 992px;
+}
+.homeTestimonials{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+/* product Details */
+@media screen and (max-width: 992px) {
+  .productCol {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 993px) {
+  .productCol {
+    width: 50%;
+  }
+}
+
+/* cart css */
+@media screen and (max-width: 768px) {
+  .cartLeft,
+  .cartRight {
+    width: 100%;
+  }
+  .cartBody > div.col-25,
+  .cartBody > div.col-75 {
+    width: 50%;
+  }
+  .homeTestimonials{
+    grid-template-columns: 100%;
+  }
+
+}
+@media screen and (min-width: 769px) {
+  .cartLeft {
+    width: 75%;
+  }
+  .cartRight {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .cartController > * {
+    display: block;
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    --h1: bold clamp(2rem, 2.5vw, 3.5rem) / 1.2em var(--ff);
+    --h2: bold clamp(1.5rem, 2vw, 2rem) / 1.5em var(--ff);
+    --h3: bold 1rem / 1em var(--ff);
+    --links: 0.9rem / 0.9em var(--ff);
+    --p: 0.9rem / 1.7em var(--ff);
+    --p1: 1.1rem / 1.4em var(--ff);
+    --p2: 1.4rem / 1.4em var(--ff);
+  }
+}

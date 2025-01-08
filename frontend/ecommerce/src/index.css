@@ -1,0 +1,44 @@
+@font-face {
+  font-family: poppins;
+  src: url(./assets/font/Poppins-Regular.ttf);
+}
+
+:root {
+  --ff: poppins, "Trebuchet MS", sans-serif;
+  --ff2: "Courier New", Courier, monospace;
+  --colorbody: hsl(0, 0%, 100%);
+  --colorp: hsl(0, 0%, 12%);
+  --colorp2: hsl(0, 0%, 20%);
+  --colors: hsl(0, 0%, 95%);
+  --colora: #e14742;
+  --colora2: #26b1ce;
+  --gradient: linear-gradient(45deg, var(--colora) 0%, var(--colora2) 100%);
+  --h1: bold clamp(2.5rem, 3vw, 4rem) / 1.2em var(--ff);
+  --h2: bold clamp(2rem, 2.5vw, 2.5rem) / 1.5em var(--ff);
+  --h3: bold 1.5rem / 1.5em var(--ff);
+  --links: 1rem / 1em var(--ff);
+  --p: 1rem / 1.8em var(--ff);
+  --p1: 1.2rem / 1.5em var(--ff);
+  --p2: 1.5rem / 1.5em var(--ff);
+  --shadow: #00000030 0px 4px 10px 0px;
+  --transition: 0.3s ease-in-out;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: var(--colorbody);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff);
+  position: relative;
+  z-index: 0;
+}

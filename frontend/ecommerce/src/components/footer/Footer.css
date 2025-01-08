@@ -1,0 +1,122 @@
+.footer {
+  background-color: hsl(from var(--colora2) h s calc(l + 30));
+}
+.footerOne {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+}
+.footerList {
+  padding: 0.5rem 1rem;
+}
+.footerList:nth-last-child(3) {
+  grid-column: 1/3;
+}
+.footerList:nth-last-child(1) {
+  grid-column: 4/6;
+}
+.footer .footerList > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-position: inside;
+}
+.footerList ul li > a {
+  color: var(--colorp2);
+  text-decoration: none;
+  display: inline-block;
+  font: var(--p);
+  transition: transform var(--transition);
+}
+.footerList ul li > a:hover {
+  color: hsl(from var(--colorp) h s calc(l - 75));
+  transform: translateX(10px);
+}
+.footerSocial {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.footerSocial a {
+  color: var(--colorp2);
+  display: inline-block;
+  font: var(--p2);
+  padding: 0.25rem;
+}
+.footerHrline {
+  border: 2px solid var(--colors);
+}
+.footerTwo {
+  text-align: center;
+  padding: 0.5rem;
+}
+#newsletteForm {
+  padding-block: 0.5rem;
+}
+#newsletteForm input {
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  font-family: poppins;
+  outline: none;
+  border: none;
+}
+#newsletteForm button {
+  font: var(--para);
+  font-family: poppins;
+}
+#chatBot {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 1rem;
+}
+#chatBtn {
+  border-radius: 50%;
+}
+#chatRoom {
+  position: absolute;
+  background-image: linear-gradient(to bottom, var(--colora) 50%, white 50%);
+  bottom: calc(100% + 1rem);
+  width: 320px;
+  right: 0;
+  padding: 1rem;
+  color: var(--colorp2);
+  font: var(--p);
+  display: none;
+}
+#chatBot.showChat #chatRoom {
+  display: block;
+}
+.chatRoomSpace {
+  text-align: left;
+  background-color: var(--colors);
+  padding: 1rem;
+}
+.chatRoomSpace .chatLink {
+  background-color: var(--colorp2);
+  color: var(--colors);
+  display: inline-block;
+  margin-block: 0.5rem;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .footerOne {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+  }
+  .footerList:nth-last-child(3) {
+    grid-column: 2/3;
+  }
+  .footerList:nth-last-child(1) {
+    grid-column: 4/5;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footerOne {
+    display: block;
+  }
+}

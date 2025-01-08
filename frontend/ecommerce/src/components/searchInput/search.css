@@ -1,0 +1,22 @@
+.searchContainer {
+  background-color: var(--colors);
+}
+#searchProductForm {
+  display: flex;
+  flex-flow: row nowrap;
+}
+#searchInput {
+  outline: none;
+  font-family: poppins;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  width: 500px;
+}
+#searchBtn {
+  font-family: poppins;
+  border-radius: 0;
+  background-color: var(--colorp2);
+}
+#searchBtn i {
+  color: var(--colors);
+}

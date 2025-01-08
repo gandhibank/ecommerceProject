@@ -1,0 +1,12 @@
+.noDataFound {
+  background-color: var(--colors);
+}
+.noDataImage {
+  object-fit: cover;
+  width: 100%;
+  max-height: 500px;
+  height: auto;
+}
+.noDataText {
+  font: var(--paraxl);
+}

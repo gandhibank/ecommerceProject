@@ -1,0 +1,36 @@
+.leftAndRight {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.leftImage,
+.rightContent,
+.rightImage,
+.leftContent {
+  flex: 1;
+}
+.leftImage,
+.rightImage {
+  overflow: hidden;
+}
+.upcome_border1 {
+  border-radius: 20% 50% 50% 20%;
+}
+.upcome_border2 {
+  border-radius: 50% 20% 20% 50%;
+}
+.leftAndRight {
+  max-width: 1200px;
+}
+.leftRightBtn {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--colors);
+  background-color: var(--colora2);
+}
+@media screen and (max-width: 768px) {
+  .leftAndRight{
+    display: block;
+  }
+}

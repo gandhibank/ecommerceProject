@@ -1,0 +1,81 @@
+@font-face {
+  font-family: FontAwesome;
+  src: url(../../assets/font/FontAwesome-regular.ttf);
+}
+.cardContainer {
+  width: 100%;
+}
+.cardContainer:nth-child(even) .cardImg {
+  background-color: hsl(from var(--colora2) h s calc(l + 45));
+}
+.cardContainer:nth-child(odd) .cardImg {
+  background-color: hsl(from var(--colora) h s calc(l + 10));
+}
+.cardImg {
+  overflow: hidden;
+  height: 350px;
+}
+.cardImg img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: all 0.5s linear;
+}
+
+.cardDescription {
+  text-align: center;
+}
+.cardProductDetails {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.cardProductDetails > div {
+  padding: 0.25rem;
+}
+.cardPrice {
+  text-align: center;
+}
+.card{
+  position: relative;
+  overflow: hidden;
+}
+.cardStock{
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 1;
+  display: none;
+}
+.card:hover .cardStock{
+  display: block;
+}
+
+.cardFooter {
+  text-align: center;
+}
+.cardFooter .cardBtn {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--colors);
+  background-color: var(--colora);
+  padding: 0.5rem 1rem;
+  margin-block: 0.5rem;
+}
+
+@media screen and (min-width: 576px) {
+  .cardContainer {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cardContainer {
+    width: 33.33%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .cardContainer {
+    width: 25%;
+  }
+}

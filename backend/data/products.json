@@ -1,0 +1,128 @@
+[{
+    "name": "The Play Gym",
+    "price": 2000.00,
+    "description": "Watch your baby discover the world around them with 5 Developmental Zones that help them learn and grow through their first year.",
+    "ratings": 5,
+    "images": [
+      {
+        "image": "/images/products/1.jpg"
+      }
+    ],
+    "category": "0-1 years",
+    "stock": 10
+  },
+  {
+    "name": "Drum Beat Rattle",
+    "price": 400.00,
+    "description": "Localisation of sounds and perception of different sound starts young.",
+    "ratings": 5,
+    "images": [
+      {
+        "image": "/images/products/2.jpg"
+      }
+    ],
+    "category": "0-1 years",
+    "stock": 10
+  },
+  {
+    "name": "Wooden Peg Dolls",
+    "price": 500.00,
+    "description": "Wee Folk Wooden Dolls are an essential component of imaginative play and are found in Waldorf schools around the world.",
+    "ratings": 3.5,
+    "images": [
+      {
+        "image": "/images/products/3.jpg"
+      }
+    ],
+    "category": "0-1 years",
+    "stock": 10
+  },
+  {
+    "name": "Wooden Animals",
+    "price": 1000.00,
+    "description": "Simple animal forms invite children to enter a world of imaginative play.",
+    "ratings": 4,
+    "images": [
+      {
+        "image": "/images/products/4.jpg"
+      }
+    ],
+    "category": "0-1 years",
+    "stock": 10 
+  },
+  {
+    "name": "Balancing Blocks",
+    "price": 800.00,
+    "description": "Wood balancing blocks are a new take on the classic wooden building block.",
+    "ratings": 4.5,
+    "images": [
+      {
+        "image": "/images/products/5.jpg"
+      }
+    ],
+    "category": "1-2 years",
+    "stock": 10
+  },
+  {
+    "name": "The Buddy Stroller",
+    "price": 1000.00,
+    "description": "Promote motor skill development and encourage independent, creative play with this stroller sized perfectly for your toddler.",
+    "ratings": 4.5,
+    "images": [
+      {
+        "image": "/images/products/6.jpg"
+      }
+    ],
+    "category": "1-2 years",
+    "stock": 10
+  },
+  {
+    "name": "Rolling push wagon",
+    "price": 1000.00,
+    "description": "The Rolling Push Walker by WoodBee Toys is a thoughtfully designed walking aid crafted from a mix of Birch Plywood and Beech Wood, offering durability and a unique round shape that adds stability and ease of movement.",
+    "ratings": 4,
+    "images": [
+      {
+        "image": "/images/products/7.jpg"
+      }
+    ],
+    "category": "1-2 years",
+    "stock": 10
+  },
+  {
+    "name": "Traditional push wagon",
+    "price": 1500.00,
+    "description": "The Traditional Push Walker from WoodBee Toys is a uniquely designed, sturdy walking aid crafted from solid Beech Wood.",
+    "ratings": 3.5,
+    "images": [
+      {
+        "image": "/images/products/8.jpg"
+      }
+    ],
+    "category": "2-3 years",
+    "stock": 10
+  },{
+    "name": "Stallion rocker ",
+    "price": 2000.00,
+    "description": "e all remember that one wooden horse rider of our childhood where we rocked for hours together.",
+    "ratings": 4.5,
+    "images": [
+      {
+        "image": "/images/products/9.jpg"
+      }
+    ],
+    "category": "2-3 years",
+    "stock": 10
+  },{
+    "name": "Transformable Pikler Triangle",
+    "price": 4000.00,
+    "description": "The Bloon Pikler Triangle MAX is a transformable Pikler Triangle which can be set up in many different ways.",
+    "ratings": 4,
+    "images": [
+      {
+        "image": "/images/products/10.jpg"
+      }
+    ],
+    "category": "2-3 years",
+    "stock": 10
+  }]
